@@ -20,4 +20,8 @@ def fibonacci_bine(n=0):
     num = ((FI**n) - (1 / ((-FI)**n))) / (2*FI - 1)
     return round(num)
 
-call_the_function()
+def main():
+    call_the_function()
+
+if __name__ == "__main__":
+    main()
